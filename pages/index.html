@@ -14,18 +14,20 @@
     </style>
 </head>
 <body>
-    <div class="container-fluid"> 
+    <h1 class="display-2 text-primary">Bootstrap</h1>
+
+    <div class="container tex-center"> 
         <div class="row">
-        <div class="col-md-3">Content</div>
-        <div class="col-md-4">Content</div>
-        <div class="col-md=5">Content</div>
+        <div class="col-sm-8">col-sm-4</div>
+        <div class="col-sm-4">col-sm-4</div>
         </div>
         <div class="row">
-            <div class="col-md-6">Content</div>
-            <div class="col-md-6">Content</div>
+            <div class="col-sm">col-sm</div>
+            <div class="col-sm">col-sm</div>
+            <div class="col-sm">col-sm</div>
             </div>
     </div>
-    <table class="table">
+    <table class="table table-dark table-striped table-bordered table-condensed">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -34,7 +36,7 @@
             <th scope="col">Handle</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
           <tr>
             <th scope="row">1</th>
             <td>Mark</td>
@@ -43,7 +45,7 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
+            <td>Jacob</td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
             <td>Thornton</td>
             <td>@fat</td>
           </tr>
@@ -54,5 +56,29 @@
           </tr>
         </tbody>
       </table>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div style="width: 100%; height: 400px; background-color: gray;">Pick1</div>
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div style="width: 100%; height: 400px; background-color: gray;">Pick2</div>
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div style="width: 100%; height: 400px; background-color: gray;">Pick3</div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </body>
 </html>
